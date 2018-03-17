@@ -21,6 +21,7 @@ matrix:
 
 cache:
   yarn: true
+  timeout: 600
   directories:
     - node_modules
     - $HOME/Library/Caches/electron
