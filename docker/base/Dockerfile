@@ -11,7 +11,7 @@ RUN apt-get -qq update && apt-get -qq dist-upgrade && \
   # rpm is required for FPM to build rpm package
   # libsecret-1-dev and libgnome-keyring-dev are required even for prebuild keytar
   apt-get -qq install --no-install-recommends qtbase5-dev bsdtar build-essential autoconf libssl-dev gcc-multilib g++-multilib lzip rpm python libcurl4 git git-lfs ssh unzip \
-  libsecret-1-dev libgnome-keyring-dev \
+  libsecret-1-dev libgnome-keyring-dev openjdk-8-jdk \
   libopenjp2-tools && \
   # git-lfs
   git lfs install && \
