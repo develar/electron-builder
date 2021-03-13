@@ -6,6 +6,8 @@ module.exports = {
     "@babel/preset-typescript",
   ],
   "ignore": [
-    "../.yarn",
+    "./node_modules",
+    "../node_modules",
+    "../packages",
   ]
 }
